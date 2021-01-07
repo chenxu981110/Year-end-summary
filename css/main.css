@@ -1,0 +1,485 @@
+       html,
+        body {
+            width: 100%;
+            height: 100%;
+            padding: 0px;
+            margin: 0px;
+            /*overflow-x:hidden;*/
+           
+        }
+
+        #header,
+        #module1,
+        #module2,
+        #module3 section,
+        .module4,
+        .module5, .module6, .module7
+        , .module8 , .module9
+         {
+            width: 1130px;
+            margin: 0 auto;
+        }
+
+        #header {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        #header div {
+
+            width: 1044px;
+            height: 2px;
+            background-color: #335eea;
+            background: linear-gradient(to right, green, #335eea);
+        }
+
+        #module1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 6rem;
+        }
+
+        #button {
+            background-color: #335eea;
+            color: #fff;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            border-radius: 5px;
+            width: 182px;
+            height: 55px;
+            font-size: medium;
+            font-weight: bold;
+            outline: none;
+            cursor: pointer;
+            transition: bottom .2s ease;
+            bottom: 0px;
+        }
+        #button:hover, #button:focus, #button:active{
+         box-shadow: 2px 2px 20px 3px #dfe0e0;
+        position: relative;
+        bottom: 3px;
+        }
+         #button2 {
+          width: 158px;
+          height: 55px;
+          background-color: rgba(51,94,234,.1);
+          color: #335eea;
+          outline: none;
+          border: none;
+          border-radius: 5px;
+          margin-left: 10px;
+          font-size: 17px;
+          font-weight: 500;
+        cursor: pointer;
+            transition: bottom .2s ease;
+            bottom: 0px;
+        }
+          #button2:hover, #button2:focus, #button2:active{
+         box-shadow: 1px 1px 15px 1px #dfe0e0;
+        position: relative;
+        bottom: 3px;
+        }
+      #button3 {
+        cursor: pointer;
+            transition: bottom .2s ease;
+            bottom: 0px;
+        }
+          #button3:hover, #button3:focus, #button3:active{
+         box-shadow: 2px 2px 15px 3px #dfe0e0;
+        position: relative;
+        bottom: 3px;
+        }
+         #button4 {
+             background: #42ba96;
+             color: #fff;
+             border-radius: 10px;
+             width: 180px;
+             height: 55px;
+             display: flex;
+             flex-direction: row;
+             justify-content: center;
+             align-items: center;
+             margin-top: 50px;
+        cursor: pointer;
+            transition: bottom .2s ease;
+            bottom: 0px;
+        }
+          #button4:hover, #button3:focus, #button3:active{
+        position: relative;
+        bottom: 3px;
+        opacity: 0.9;
+        }
+        #module2 {
+            margin-top: 6rem;
+            margin-bottom: 6rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        #module2 h3 {
+            color: #161c2d;
+            font-weight: 400;
+            margin: 0px;
+            padding: 15px 0px 10px 0px;
+        }
+
+        #module2 p {
+            color: #869ab8;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #module2 #left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        #module3 {
+            border-bottom: 1px solid #f1f4f8;
+            border-top: 1px solid #f1f4f8;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+
+        }
+
+       
+
+        .module4 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .module4 #content1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 120px;
+        }
+
+        .module4 #content1 h2 {
+            font-size: 31px;
+        }
+
+        .module4 #content1 p {
+            color: #869ab8;
+        }
+
+        .module4 #content1 #options {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .module4 #content1 #options p {
+            display: flex;
+            flex-direction: row;
+            color: #42BA96;
+            margin: 10px 5px;
+        }
+
+        #form {
+            display: flex;
+            flex-direction: column;
+            width: 394px;
+            height: 645px;
+            border-radius: 10px;
+            border: 1px solid #f1f4f8;
+            box-shadow: 1px 1px 40px 1px #dfe0e0;
+            transition: bottom .2s ease;
+            bottom: 0px;
+        }
+        
+          #form:hover, #form:focus, #form:active{
+         box-shadow: 2px 2px 15px 3px #dfe0e0;
+        position: relative;
+        bottom: 3px;
+        }
+
+        #module4 #form input {
+            border: none;
+            border-bottom: 1px solid #f1f4f8;
+            outline: none;
+           background: transparent;
+
+
+        }
+
+        #module4 #form button {
+            outline: none;
+            border: none;
+            width: 329px;
+            height: 55px;
+            border-radius: 10px;
+            background-color: #42BA96;
+            font-size: 17px;
+            color: white;
+            font-weight: 500;
+        }
+
+        #module4 #form input::input-placeholder {
+            color: #869ab8;
+            font-weight: 400;
+             font-size: 18px;
+        }
+
+        #module4 #form input::-moz-placeholder {
+            color: #869ab8;
+            font-weight: 400;
+             font-size: 18px;
+        }
+
+        #module4 #form input::-webkit-input-placeholder {
+            color: #869ab8;
+            font-weight: 400;
+             font-size: 18px;
+        }
+
+        #module4 #form input::-ms-input-placeholder {
+            color: #869ab8;
+            font-weight: 400;
+             font-size: 18px;
+        }
+
+
+
+        @keyframes typing {
+            from {
+                width: 0
+            }
+        }
+
+        @keyframes caret {
+            50% {
+                border-color: currentColor;
+            }
+        }
+
+        #typing {
+            font: bold 200% Consolas, Monaco, monospace;
+            width: 38ch;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: .05em solid transparent;
+            animation: typing 8s steps(38),
+                caret 1s steps(1) infinite;
+
+        }
+
+        .module5 {
+            display: flex;
+            flex-direction: row;
+            margin-top:300px ;
+        
+        }
+
+        .module5 #shape {
+            width: 624px;
+            height: 568px;
+            position: relative;
+           
+        }
+
+        .module5 #chart {
+            -webkit-perspective: 1500px;
+            perspective: 1500px;
+            -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+            position: absolute;
+            top: -110px;
+            right: -110px;
+
+        }
+
+        .module5 #chart-img {
+            -webkit-transform: rotateY(-30deg) rotateX(15deg);
+            transform: rotateY(-30deg) rotateX(15deg);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            width: 639px;
+            height: 519px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 20px 3px #dfe0e0;
+
+        }
+        #module5-text{
+            display: flex;
+            flex-direction: column;
+            width: 640px;
+        }
+        .module6{
+            text-align: center;
+        }
+
+ #module4 {
+           
+            padding: 100px 0px;
+            width: 100%;
+            height:2200px;
+            position: relative;
+        }
+        
+ #module4:after {
+            width: 650%;
+            height: 2200px;
+            position: absolute;
+            right: -20%;
+            top: 0;
+            z-index: -1;
+            content: '';
+            border-radius: 0 0 50% 100%;
+           background-image: linear-gradient(to bottom, #f9fbfd 0, #fff 100%);           
+        }
+
+#module5{
+    width: 100%;
+    height:2000px;
+    position: relative;
+    top: -500px;
+    z-index: -2;
+
+}
+
+
+ #module5:after {
+            width: 200%;
+            height: 1800px;
+            position: absolute;
+            left: -50%;
+            top: 0;
+            z-index: -3;
+            content: '';
+            border-radius: 0 0 50% 50%;
+            background-color: #f1f4f8;
+           
+           
+        }
+#module6{
+        position: relative;
+        top: -1000px;
+        width: 100%;
+        height: 1600px;
+        z-index: -4;
+}
+#module6:after {
+            width: 200%;
+           height: 1350px;
+            position: absolute;
+            left: -50%;
+            top: 0;
+            z-index: -5;
+            content: '';
+            border-radius: 0 0 40% 50%;
+         background-color: #1b2a4e;
+           
+           
+        }
+#module7{
+        position: relative;
+        top: -1350px;
+        width: 100%;
+        height: 350px;
+        z-index: -6;
+        background-color: #f1f4f8;
+}
+
+.module7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+.module8{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+#module8-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+  
+  
+}
+#card1{
+    width: 500px;
+    height: 560px;
+    background-color: #fff;
+     box-shadow: 3px 0px 20px -15px #dfe0e0;
+     border-radius: 10px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+    }
+#card2{
+    margin-left: -50px;
+    width: 500px;
+    height: 497px;  
+    border-radius: 10px;
+    z-index: -1;
+    background-color: #fff;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+}
+
+
+
+
+ /* Switch开关样式 */
+ /* 必须是input为 checkbox class 添加 switch 才能实现以下效果 */
+ input[type='checkbox'].switch{
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+    width: 40px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 10px;
+    transition: border-color .3s, background-color .3s;
+}
+
+input[type='checkbox'].switch::after {
+    content: '';
+    display: inline-block;
+    width: 1rem;
+    height:1rem;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0, 0, 2px, #999;
+    transition:.4s;
+    top: 2px;
+    position: absolute;
+    left: 2px;
+}
+
+input[type='checkbox'].switch:checked {
+    background: #335eea;
+}
+/* 当input[type=checkbox]被选中时：伪元素显示下面样式 位置发生变化 */
+input[type='checkbox'].switch:checked::after {
+    content: '';
+    position: absolute;
+    left: 55%;
+    top: 2px;
+}
+
+
+
+
+
